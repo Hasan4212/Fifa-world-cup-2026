@@ -3,7 +3,7 @@
     margin: 0;
 }
 .common{
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
    width: 100%;
 
@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
+    padding: 15px 0;
 }
 
 .first-child{
@@ -49,7 +49,18 @@
     border: none;
     padding: 15px 15px;
     border-radius: 12px;
+    transition: 0.3s;
+    cursor: pointer;
+    
 }
+.third-child  button:hover{
+    
+  transform: scale(1.2);   
+}
+
+
+
+
 
 
 /* navigation end */
@@ -59,14 +70,57 @@
 header{
     background-image: url(./images/Background.png);
     height: 140vh;
+    
     background-repeat: no-repeat;
     width: 100%;
    margin: 20px auto;
     border-radius: 20px;
-
+background-size: cover;
+color: white;
 }
 
+.header-parents{
+       display: grid;
+    text-align:left;
+     padding-top: 300px;
+  gap: 30px;
+  padding-left: 50px;
+}
+.header-parents h1{
+      font-size: 80px;
+}
+.header-parents p{
+      font-size: 23px;
+}
+.header-parents button a{
+      text-decoration: none;
+      color: black;
+}
+
+.header-parents button{
+    background-color: #E8BA2E;
+    padding: 12px 15px;
+    border-radius: 12px;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+.header-parents button:hover{
+transform: scale(1.2);
+}
+
+
+
 /* header end */
+
+.yellow-card{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E8BA2E;
+    padding: 20px 0px;
+    margin: 15px auto;
+
+}
 
 
 

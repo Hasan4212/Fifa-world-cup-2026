@@ -1,6 +1,85 @@
 
-
-
-body{
-    background-color: green;
+*{
+    margin: 0;
 }
+.common{
+    max-width: 1200px;
+    margin: 0 auto;
+   width: 100%;
+
+}
+
+
+   
+
+/* navigation start */
+.nav-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.first-child{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.second-child ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.second-child a{
+     text-decoration: none;
+     color: black;
+}
+
+.third-child  button a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+.third-child  button{
+     background-color:#E8BA2E;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 12px;
+}
+
+
+/* navigation end */
+
+/*  header start */
+
+header{
+    background-image: url(./images/Background.png);
+    height: 140vh;
+    background-repeat: no-repeat;
+    width: 100%;
+   margin: 20px auto;
+    border-radius: 20px;
+
+}
+
+/* header end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
